@@ -1,0 +1,161 @@
+/* BArra de Pesquisa */
+
+.barra-de-pesquisa{
+    border: 1.3px solid #321fdb;
+    width: 50%;
+    border-radius: 5px;
+    position: relative;
+    margin-bottom: 10px;
+}
+.InputSearch{
+    width: 95%;
+    padding: 5px 10px;
+    font-size: 1.1rem;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-color: transparent;
+    margin-right: -5px;
+    outline: none;
+    background-color: whitesmoke;
+}
+.ButtonSearch{
+    width: 15.9%;
+    height: 41px;
+    font-size: 1.1rem;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-color: transparent;
+    margin-left: -5px;
+    padding-bottom: 1px;
+    background-color: whitesmoke;
+}
+/* ================================================================
+outros
+
+*/
+:root{
+    --section-dashbord: 87%;
+    --azul-cor-principal: rgb(68, 0, 255); 
+    --castanha-cor-principal: rgb(198, 105, 64); 
+    --branca-contraste: rgb(241 245 247);
+    --h2-cor: rgb(48, 48, 48);
+    --dashbord-div-cor: white;
+    --texto-padrão: 17px; 
+    --dashborde-width: 98%;
+    --box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.236);
+    --content-width: 1220px;
+    --width-padrão: 100%;
+}
+
+.Barra-de-Pesquisa{
+    width: 650px;
+    position: absolute;
+    right: 35px;
+    box-shadow: var(--box-shadow);
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    height: auto;
+    padding: 5px;
+}
+.Barra-de-Pesquisa > form{
+    width: 100%;
+    border-radius: 5px;
+}
+.Form-Barra-de-Pesquisa > #Pesquisar{
+    border: 1.5px solid rgba(0, 0, 0);
+    height: 40px;
+    width: 100%;
+    padding-left: 10px;
+    font-size: var(--texto-padrão);
+    margin-right: -5px ;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+}
+.Form-Filtro{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+}
+.Form-Filtro-label{
+    margin-top: 0px;
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    width: 25%;
+    margin-right: 5px;
+    background-color: rgba(255, 255, 255, 0);
+}
+.Form-Filtro-label > label{
+    transform: translateY(-0.5%);
+    border: 0.5px solid rgba(0, 0, 0, 0);
+    background-color: white;
+    margin-left: 5px;
+    padding-left: 5px;
+    font-size: 14px;
+    margin-bottom: -5px;
+}
+.label-data_de_emissao{
+    width: 70%;
+}
+.label-Função{
+    width: 35%;
+
+}
+.Form-Filtro-label > #data_de_emissao{
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border: 0.5px solid rgba(0, 0, 0);
+    height: 40px;
+    margin-top: -8px;
+    width: 100%;
+    font-size: var(--texto-padrão);
+    padding-left: 10px;
+}
+
+.Form-Filtro-label> select{
+    width: 100%;
+    border: 0.5px solid rgba(0, 0, 0);
+    padding: 0 5px;
+    margin-top: -8px;
+    background: white;
+    font-size: var(--texto-padrão);
+    height: 40px;
+    color: rgb(0, 0, 0);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#Filtro > option{
+    background: white;
+    font-size: var(--texto-padrão);
+    color: black;
+    text-align: left;
+}
+.itens{
+    opacity: 0;
+}
+.Form-Filtro > .Botaosubmit{
+    border-right: 0.5px solid rgba(0, 0, 0);
+    border-top: 0.5px solid rgba(0, 0, 0);
+    height: 39px;
+    margin-top: -40px;   
+    color: rgb(0, 0, 0);
+    width: 25%;
+    font-size: var(--texto-padrão);
+    background: white;
+    transition-duration: 1s;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.Form-Filtro > .Botaosubmit:hover{
+    border-right: 0.5px solid rgba(0, 0, 0, 0);
+    height: 39px;
+    width: 25%;
+    color: white;
+    font-size: var(--texto-padrão);
+    background: #321fdb;
+    transition-duration: 1s;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}

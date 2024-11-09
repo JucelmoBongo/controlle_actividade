@@ -1,0 +1,184 @@
+body{
+     margin: 0 auto;
+}
+.body-section{
+     position: absolute;
+     top: 0;
+     left: 0;
+     right: 0; 
+     bottom: 0;
+     width: 1512px;
+     display: flex; 
+     flex-direction: row;
+     height: 100%;
+     background-color: rgb(101, 181, 94);
+}
+*{
+     letter-spacing: 0.5px;
+}
+:root{
+     --section-dashbord: 87%;
+     --azul-cor-principal: rgb(68, 0, 255); 
+     --castanha-cor-principal: rgb(198, 105, 64); 
+     --branca-contraste: rgb(241 245 247);
+     --h2-cor: rgb(48, 48, 48);
+     --dashbord-div-cor: white;
+     --texto-padrão: 17px; 
+     --dashborde-width: 98%;
+     --box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.236);
+}
+
+
+.dashbord-aside-section{
+     border: 0.5px solid var(--dashbord-div-cor);
+     width: var(--dashborde-width);
+     margin: auto;
+     border-radius: 5px;
+     background-color: var(--dashbord-div-cor);
+     box-shadow: var(--box-shadow);
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     padding: 10px 20px;
+}
+.dashbord-aside-foto{
+     border: 1px solid transparent;
+     width: 200px;
+     height: 195px;
+     border-radius: 50%;
+     margin-top: 3%;
+     margin-bottom: 3%;
+     cursor: pointer;
+}
+.dashbord-aside-foto > img{
+     width: 100%;
+     height: 100%;
+     border-radius: 50%;
+}
+h4{
+     color: var(--h2-cor);
+     border-bottom: 2.5px solid rgba(0, 0, 0);
+     padding-bottom: 3px;
+}
+.dashbord-aside-dados{
+     border: 0.5px solid rgba(0, 0, 0, 0);
+     width: 50%;
+     margin-left: 20px;
+}
+.localização{
+     width: 35%;
+}
+.table-dados-body-div{
+     display: flex;
+     flex-direction: column;
+}
+.aside-1{
+     background-color: white;
+}
+.aside-2{
+     background-color: var(--branca-contraste);
+}
+.div-aside{
+     border-bottom: 2px solid rgba(0, 0, 0, 0);
+     height: 35px;
+     padding: 5px 5px;
+     font-size: var(--texto-padrão);
+     display: flex;
+
+}
+.zona-label{
+     border: 0.5px solid rgba(0, 0, 0, 0);
+     margin-right: 10px;
+     width: 125px;
+     color: grey;
+}
+.zona-dados{
+     border: 0.5px solid rgba(0, 0, 0, 0);
+     width: auto;
+     
+}
+
+/* 
+
+
+
+.modal-body{
+  border-: 0.5px solid red;
+  height: 450px;
+  margin: auto;
+  width: 100%
+}
+
+.modal-body-weight{
+  border: 0.5px solid black, 0;
+  height: 104%;
+  width: 465px;
+  margin:-16px auto auto auto;
+}
+
+#sessao-1, #sessao-2{
+  display: none;
+}
+
+.weight-label{
+  width: 50%;
+  border: 0.5px solid red, 0;
+  display: flex;
+  font-size: 17px;
+  height: 35px;
+  text-align: center;
+}
+
+.weight-label > label{
+  width: 50%;
+  border-bottom-color: white;
+  border-bottom-color: white; 
+  padding-top: 4px; 
+  height: 35px;
+}
+
+.modal-body-weight input:nth-child(1):checked ~ .weight-label label:nth-child(1){
+  background-color: whitesmoke;
+  border: 0.5px solid grey;
+  border-bottom-color: white;
+} 
+
+.modal-body-weight input:nth-child(2):checked ~ .weight-label label:nth-child(2){
+  background-color: whitesmoke;
+  border: 0.5px solid blue;
+  border-bottom-color: white;
+} 
+
+.modal-content-weight{
+  border: 0.5px solid grey;
+  height: 96%;
+  position: relative;
+  margin-top: -1px;
+  overflow: hidden;
+  background-color: wheat;
+}
+
+.modal-content-weight-inner {
+  width: calc(465px * 2);
+  background-color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+}
+
+.modal-content-weight-inner > div{
+  background-color: yellow;
+  width: inherit;
+  transition: 0.2s;
+  
+}
+
+.modal-body-weight input:nth-child(1):checked ~ .modal-content-weight-inner > div{
+  translate: 0 0;
+} 
+.modal-body-weight input:nth-child(2):checked ~ .modal-content-weight-inner > div{
+  translate: calc( 0px - 465px 0;
+} 
+
+*/

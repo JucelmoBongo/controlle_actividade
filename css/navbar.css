@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=wap");
+
+*{
+     margin: 0;
+     padding: 0;
+     outline: none;
+     border: none;
+     text-decoration: none;
+     box-sizing: border-box;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.div-foto{
+     width: 100%;
+     height: auto;
+     border-radius: 30%;
+     text-align: center;
+     margin-top: 15px;
+}
+.foto-perfil{
+     border: 1px solid white;
+     width: 110px;
+     height: 110px;
+     border-radius: 50%;
+     text-align: center;
+
+}
+nav{
+     position: fixed;
+     top: 0;
+     bottom: 0;
+     left: 0;
+     height: 100%;
+     margin: 0 ;
+     background-color: black;
+     width: 200px;
+     overflow: hidden;
+     box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+.p{
+     position: relative;
+     list-style: none;
+     top: 4px;
+     padding-left: 27px;
+     height: 27px;
+}
+.li-link, .li-div, .logo-out{
+     position: relative;
+     color: white;
+     display: table;
+     width: 300px;
+     outline: none;
+     padding: 4px;
+     transition: 0.5s;
+     border-top: 0.5px solid transparent;
+     border-bottom: 0.5px solid transparent;
+}
+.fas{
+     position: relative;
+     width: 65px;
+     height: 30px;
+     top: 6px;
+     font-size: 20px;
+     text-align: center;
+}
+
+.nav-item{
+     position: relative;
+     top: 4px;
+     margin-left: 10px;
+}
+
+.li-link:hover, .logo-out:hover{
+     background-color: rgb(29, 3, 53);
+     border-top: 0.5px solid rgb(241 245 247);
+     border-bottom: 0.5px solid rgb(241 245 247);
+     transition: 0.5s;
+     text-decoration: none;
+     color: white;
+}
+
+.logo-out{
+     position: absolute;
+     bottom: 0;
+     padding-left: 5px;
+     color: white;
+     text-decoration: none;
+     color: white;
+}

@@ -1,0 +1,111 @@
+body{
+     width: 1518px;
+     margin: auto;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.body-section{
+     max-width: 80%;
+     margin: 20px auto;
+     border-radius: 10px;
+     border: 0.5px solid black;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+}
+.section-div{
+     margin: 20px auto;
+     border-radius: 10px;
+     border: 0.5px solid rgb(21, 255, 0);
+}
+#section-div-primeira{
+     width: 39%;
+}
+#section-div-secgunda{
+     width: 55%;
+}
+.div-form{
+     width: 95%;
+     margin: 20px auto;
+     border-radius: 0px;
+     border: 0.5px solid rgba(21, 0, 255, 0);
+}
+.form-div-body{
+     margin: 0px auto;
+     width: 99%;
+     display: flex;
+     flex-direction: column;
+     border: 0.5px solid rgba(255, 0, 0, 0);
+}
+label{
+     font-size: 1.1rem;
+}
+.Input{
+     margin: 5px 2px;
+     border: 1px solid blue;
+     border-radius: 00px;
+     padding: 8px 10px;
+     height: 20px;
+     font-size: 1.2rem;
+     background-color: transparent;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.Input:focus{
+     outline: none;
+}
+#InputIdTel{
+     width: 89%;
+
+}
+#InputId{
+     width: 93.8%;
+}
+.form-div{
+     border: 0.5px solid rgba(255, 0, 0, 0);
+     display: flex;
+     width: 99%;
+     margin: auto;
+}
+.form-Div{
+     width: 49%;
+     display: flex;
+     border: 0.5px solid rgba(255, 0, 0, 0);
+     flex-direction: column;
+     margin: auto;
+}
+.div{
+     text-align: center;
+}
+.InputSub{
+     width: 50%;
+     margin: auto;
+     height: 35px;
+     font-size: 1.1rem;
+     border-right-color: transparent;
+     border-color: 1px solid blue;
+}
+.InputRes{
+     width: 50%;
+     margin: auto;
+     height: 35px;
+     font-size: 1.1rem;
+     border-left-color: transparent;
+     border-color: blue;
+}
+.InputSub:hover{
+     width: 50%;
+     margin: auto;
+     height: 35px;
+     font-size: 1.1rem;
+     border-right-color: transparent;
+     border-color: 1px solid blue;
+     cursor: pointer;
+}
+.InputRes:hover{
+     width: 50%;
+     margin: auto;
+     height: 35px;
+     font-size: 1.1rem;
+     border-left-color: transparent;
+     border-color: 1px solid blue;
+     cursor: pointer;
+}

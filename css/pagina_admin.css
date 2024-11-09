@@ -1,0 +1,183 @@
+body{
+     margin: 0 auto;
+}
+.body-section{
+     position: absolute;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     width: 1512px;
+     display: flex;
+     flex-direction: row;
+     height: 100%;
+     background-color: rgb(101, 181, 94);
+}
+*,
+*::before,
+*::after {
+     margin : 0;
+     padding: 0;
+  box-sizing: border-box;
+}
+*{
+     letter-spacing: 0.5px;
+}
+:root{
+     --section-dashbord: 87%;
+     --castanha-cor-principal: rgb(198, 105, 64); 
+     --branca-contraste: rgb(241 245 247);
+     --h2-cor: rgb(48, 48, 48);
+     --dashbord-div-cor: white;
+     --texto-padrão: 17px; 
+     --dashborde-width: 98%;
+     --box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.236);
+}
+
+/* Estilo do Dashbord */
+.section-dashbord{
+     position: fixed;
+     top: 0;
+     left: 200px;
+     background-color: var(--branca-contraste);
+     width: 87%;
+     flex-direction: row;
+     height: 100%;
+}
+.dashbord-div{
+     position: relative;
+     top: 18px;
+     border: 0.5px solid var(--dashbord-div-cor);
+     margin: auto 20px;
+     padding: 10px 20px;
+     border-radius: 5px;
+     overscroll-behavior-y: auto;
+     background: var(--dashbord-div-cor);
+}
+h2{
+     color: var(--h2-cor);
+     border-bottom: 2.5px solid rgba(0, 0, 0);
+     padding-bottom: 5px;
+}
+.dashbord-aside{
+     margin: 0px auto 15px;
+     padding-top: 15px;
+     padding-bottom: 15px;
+     border-radius: 5px;
+     height: auto;
+     background: var(--branca-contraste);
+}
+.dashbord-card{
+     border: 0.5px solid rgba(0, 0, 0, 0);
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     margin: 0px auto;
+     width: var(--dashborde-width);
+     height: 100px;
+     background: var(--branca-contraste);
+}
+/* .scroll-card{
+     overflow-y: scroll;
+     height: 150px;
+} */
+.card{
+     border: 0.5px solid var(--dashbord-div-cor);
+     background: var(--dashbord-div-cor);
+     display: flex;
+     flex-direction: column;
+     height: auto;
+     width: 20%;
+     margin-bottom: 20px;
+     padding: 5px 4px;
+     border-radius: 5px;
+     box-shadow: var(--box-shadow);
+}
+div > span{
+     border: 0.5px solid rgba(0, 0, 255, 0);
+     font-size: 1.1rem;
+     margin-bottom: 10px;
+     padding-top: 5px;
+     padding-left: 15px;
+}
+h4{
+     color: var(--h2-cor);
+     border-bottom: 2.5px solid rgba(0, 0, 0);
+     width: 95%;
+     padding-bottom: 3px;
+}
+.card-aside{
+     border: 0.5px solid rgba(0, 0, 255, 0);
+     display: flex;
+     flex-direction: row;
+     height: 35px;
+     margin-top: -10px;
+}
+#fas{
+     margin: -5px 10px 5px -10px;
+}
+
+#fas{
+     margin: -5px 10px 5px -5px;
+}
+.card-aside-p{
+     font-size: var(--texto-padrão);
+     margin-left: -10px;
+}
+.card-aside-modal{
+     margin-left: -20px;
+     margin-top: -1px;
+}
+.card-modal{
+     width: 23%;
+     border: 0.5px solid rgb(255, 255, 255);
+     height: 45px;
+}
+.Texto-modal{
+     border: 0.5px solid rgba(255, 7, 7, 0);
+     margin-bottom: 10px;
+     font-size: var(--texto-padrão);
+}
+.form-modal-body{
+     border: 0.5px solid rgba(255, 7, 7, 0);
+     height: auto;
+     display: flex;
+     flex-wrap: wrap;
+}
+ form > .form-modal-body-div{
+     border: 0.5px solid rgba(0, 0, 0, 0);
+}
+
+.form-modal-Input{
+     width: 229%;
+     border: 1.5px solid black;
+     height: 40px;
+     color: black;
+     font-size: var(--texto-padrão);
+     padding: 5px 10px;
+     border-radius: 5px;
+     outline: none;
+}
+
+.form-modal-body-div > div{
+     display: flex;
+     border: 0.5px solid rgba(0, 0, 0, 0);
+     flex-wrap: wrap-reverse;
+}
+.div-radio{
+     margin: 5px auto;
+     width: 50%;
+     border: 0.5px solid red, 0;
+}
+.div-radio > label{
+     font-size: 17px;
+     color: black;
+     margin-left: 5px;
+}
+.div-radio > input{
+     color: var(--castanha-cor-principal);
+    
+     margin-top: 10px;
+     width: 20px;
+     height: 20px;
+}

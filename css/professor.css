@@ -1,0 +1,28 @@
+
+
+
+.section-formulario{
+    position: absolute;
+    top: 0;
+    left: 200px;
+    background-color: #fff;
+    width: 87%;
+    flex-direction: row;
+    height: 100%;
+}
+.div-formulario{
+    position: relative;
+    top: 18px;
+    border: 0.5px solid #fff;
+    margin: auto 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    overscroll-behavior-y: auto;
+    background: #fff;
+}
+.btn{
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}

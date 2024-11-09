@@ -1,0 +1,63 @@
+
+
+.btn{
+     border-color: rgb(198, 105, 64);
+     background-color: rgba(198, 104, 64, 0.946);
+     height: 43px;
+}
+
+.btn:hover{
+     border-color: rgb(198, 105, 64);
+     background-color: rgb(198, 105, 64);
+     box-shadow: 0.5px 0.5px 5px  rgba(0, 0, 0, 0.282);
+}
+
+.lista{
+     border: 0.5px solid rgb(198, 105, 64);
+     height: 40px;
+     border-radius: 5px;
+     width: 200px;
+     display: flex;
+}
+.total{
+     text-align: center;
+     padding-top: 7px;
+     width: 80%;
+     background-color: rgb(198, 105, 64);
+     color: white;
+}
+#btn{
+     width: 100%;
+}
+
+
+/* Formulário Modal */
+
+.Form-Modal{
+     border: 0.5px solid rgba(142, 70, 70, 0);
+     width: 90%;
+     margin: auto;
+}
+.Form-div{
+     border: 0.5px solid red;
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     margin-bottom: 10px;
+}
+label{
+     font-size: 1.1rem;
+}
+.InputTexT{
+     height: 40px;
+     font-size: inherit;
+     padding: 10px;
+     margin-top: -10px;
+     border-radius: 5px;
+     outline: none;
+     border: 0.5px solid blue;
+}
+
+.div_hidden:any-link + .div{
+     display: flex;
+}

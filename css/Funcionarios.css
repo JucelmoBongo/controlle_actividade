@@ -1,0 +1,200 @@
+:root{
+     --section-dashbord: 87%;
+     --azul-cor-principal: rgb(68, 0, 255); 
+     --castanha-cor-principal: rgb(198, 105, 64); 
+     --branca-contraste: rgb(241 245 247);
+     --h2-cor: rgb(48, 48, 48);
+     --dashbord-div-cor: white;
+     --texto-padrão: 17px; 
+     --dashborde-width: 98%;
+     --box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.236);
+     --content-width: 1229px;
+     --width-padrão: 100%;
+}
+
+/* Formulário */
+body{
+     max-width: 1369px;
+     background-color: rgb(103, 171, 223);
+     margin: 0 auto;
+}
+.content-div-form{
+     width: 1181px;
+     border: 0.5px solid rgba(0, 0, 0, 0);
+     height: 330px;
+     margin-top: -10px;
+     margin-bottom: 10px;
+     display: flex;
+     flex-direction: column;
+}
+.section-form{
+     border: 0.5px solid rgba(0, 0, 0, 0);
+     height: 330px;
+     display: flex;
+     width: 1171px;
+     flex-wrap: nowrap;
+}
+.form-div-content{
+     border: 0.5px solid rgba(0, 0, 0, 0);
+     width: 390px;
+     margin: -0.5px auto;
+     display: flex;
+     flex-direction: column;
+}
+.div-input{
+     height: auto;
+     width: 100%;
+     border: 0.5px solid rgb(255, 5, 5, 0);
+}
+.form-aside-input{
+     height: 35px;
+     margin-top: 15px;
+     margin-bottom: 15px;
+     position: relative;
+}
+.fILE{
+     border: 0px solid rgb(249, 0, 0, 0);
+}
+.Input{
+     display: block;
+     border: 2px solid rgba(0, 0, 0);
+     height: 40px;
+     width: 100%;
+     padding: 8px 13px;
+     font-size: var(--texto-padrão);
+     background-color: transparent;
+     transition: 0.5px;
+}
+
+.form-label{
+     pointer-events: none;
+     font-size: var(--texto-padrão);
+     margin-left: 10px;
+     transition: 0.5s;
+     background-color: none;
+     opacity: 0.5;
+}
+
+.form-label{
+     transform: translateY(-335%) ;
+     font-size: 14px;
+     border: 0.5px solid rgba(255, 0, 0, 0);
+     transition: 0.5px;
+     background-color: white;
+     height: 16px;
+     padding: 0 4px;
+     opacity: 1;
+}
+
+.div-button{
+     border: 0.5px solid rgba(0, 0, 0, 0);
+     width: 390px;
+     margin: 0 15px 0 0;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     margin: 15px auto;
+
+}
+.button{
+     width: 49%;
+     height: 40px;
+     background: var(--azul-cor-principal);
+     color: white;
+     font-size: var(--texto-padrão);
+     transition-duration: 0.9s;
+}
+.button:hover{
+     width: 49%;
+     height: 40px;
+     background: var(--castanha-cor-principal);
+     color: white;
+     font-size: var(--texto-padrão);
+     transition-duration: 0.9s;
+     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.276);
+}
+
+
+/* Pesquisar Por Funcionários */ 
+
+.Pesquisar-funcionario{
+     width: 97.5%;
+     border: 0.5px solid rgba(0, 0, 0, 0);
+     height: auto;
+     margin-top: -10px;
+     margin-left: 1px;
+}
+.resultado-de-pesquisa{
+     background-color: transparent;
+     padding: 0 3px;
+     height: 281px;
+     overflow: hidden;
+     overflow-y: scroll;
+}
+.tabela-de-resultado{
+     border: 0.5px solid rgba(43, 255, 0, 0);
+     width: var(--width-padrão);
+     height: auto;
+}
+.titulo{
+     font-size: 18px;
+     border-bottom: 2px solid rgb(0, 0, 0);
+     font-weight: bold;
+     background: var(--branca-contraste);
+     padding: 5px 5px;
+}
+.aside-1{
+     background-color: white;
+     border-bottom: 1.5px solid rgb(0, 0, 0);
+}
+.aside-2{
+     background-color: var(--branca-contraste);
+     border-bottom: 1.5px solid rgb(0, 0, 0);
+}
+.td-resultado{
+     font-size: var(--texto-padrão);
+     height: 40px;
+     border-bottom: 1.5px solid rgb(0, 0, 0);
+}
+.td-resultado:nth-child(1){
+     width: 16%;
+     padding-left: 10px;
+}
+.td-resultado:nth-child(2){
+     width: 16%;
+     text-align: center;
+}
+.td-resultado:nth-child(3){
+     width: 10%;
+     text-align: center;
+}
+.td-resultado:nth-child(4){
+     width: 10%;
+     text-align: center;
+}
+.td-resultado:nth-child(5){
+     width: 16%;
+     text-align: center;
+     margin-right: 20px;
+}
+.td-resultado:nth-child(6){
+     width: 15%;
+     text-align: center;
+}
+#td-resultado{
+     width: 100%;
+     padding-left: 5px;
+     font-size: 17px;
+     height: 40px;
+     border-bottom: 1.5px solid black;
+}
+#titulo-td-opcoes, #td-opcoes{
+     position: absolute;
+     right: 40px; 
+     width: 80px;
+     text-align: center;
+}
+#td-opcoes{
+     padding-top: 8px;
+     height: 38px;
+}

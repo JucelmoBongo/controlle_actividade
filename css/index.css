@@ -1,0 +1,99 @@
+ *,
+ *::after,
+ *::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+ body{
+    font-family: sans-serif;
+ }
+ .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/estudante-negra.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+ }
+ .box-login{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 460px;
+    padding: 50px;
+    border-radius: 16px;
+    text-align: center;
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 2px solid rgb(255, 255, 255, .3);
+ }
+ .box-login .title{
+    color: #fff;
+    font-size: 24px;
+    text-shadow: 0 0 10 rgba(0, 0, 0, .5);
+ }
+ .box-login form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 32px;
+  
+ }
+ .box-login input{
+    outline: none;
+    background-color: transparent;
+    width: 100%; 
+    height: 48px;
+    border: 2px solid rgba(255,255,255,0.3);
+    border-radius: 8px;
+    padding-left: 16px;
+    font-size: 14px;
+    margin-bottom: 10px;
+
+ }
+ .box-login input:focus{
+    border: 2px solid rgba(255,255,255,0.5);
+ }
+ .box-login input::placeholder{
+    color: #ccc;
+ }
+ .box-login button{
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 48px;
+    font-size: 18px;
+    background-color: #683402;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+ }
+ .box-login button:hover{
+    background-color: #512802;
+ }
+ .box-login .dividir{
+    display: block;
+    width: 80%;
+    height: 1px;
+    background-color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    opacity: .2;
+ }
+ .box-login a{
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+ }
+ .box-login a:hover{
+    text-decoration: underline;
+    opacity: .5;
+ }

@@ -1,0 +1,91 @@
+*,*::after,*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.filho{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 8px;
+    width: 1200px;
+    
+  
+}
+.filho h2{
+    padding: 24px 32px;
+    font-size: 24px;
+    border-bottom: thin solid #ccc;
+}
+.filho form{
+    display: flex;
+    align-items: start;
+    flex-wrap: wrap;
+    padding: 32px;
+    
+}
+.filho input{
+   width: calc(50% - 8px); 
+   height: 48px;
+   border-radius: 8px;
+   border: thin solid #ccc;
+   padding-left: 16px;
+  
+   margin-bottom: 10px;
+   font-size: 16px;
+}
+.filho input:first-child{
+    margin-right: 16px;
+}
+.filho input[name=foto],input[name=endereco],input[name=disciplina]{
+  width: 100%;
+}
+.filho input[name=email]{
+    margin-right: 16px;
+  }
+  .genero-title h6{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 3px;
+    
+    }
+    .genero-group{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 0.62rem;
+        padding: 0 0.5rem;
+    }
+    .genero-input{
+        display: flex;
+        align-items: center;
+     
+    }
+    .genero-input input{
+        margin-bottom: 2%;
+        margin-right: 10px;
+    }
+    .genero-input label{
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .disciplina-grupo{
+        display: block;
+        width: 100%;
+    }
+    .disciplina-title{
+        width: 100%;
+        
+    }
+    .disciplina-input select{
+        width: 100%;
+        height: 48px;
+        font-size: 16px;
+        font-weight: bold;
+        border-radius: 10px;
+        padding-left: 16px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+        text-transform: uppercase;
+    }
